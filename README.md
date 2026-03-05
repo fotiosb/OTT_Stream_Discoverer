@@ -100,6 +100,7 @@ App polling — queries every DIAL app in the list and returns <state> (running 
 Fire TV MITM (optional) — ARP-spoofs gateway, sniffs UDP/53 traffic for CNAME records, then restores everything.
 
 All parsing and URL-encoding is done in pure bash — no external dependencies.
+
 📁 Project Structure
 textott-stream-discoverer/
 ├── README.md                          ← You are here
@@ -109,6 +110,7 @@ textott-stream-discoverer/
 ├── mdns-detect.sh
 ├── firetv-detect5.sh
 └── (temporary files created at runtime)
+
 ⚠️ Limitations & Known Issues
 
 Works only on Linux (bash + raw sockets).
@@ -121,6 +123,7 @@ Requires root — as expected for raw packet operations.
 📜 License
 MIT License — free to use, modify, and distribute.
 The ARP-spoof code remains your responsibility.
+
 👤 Credits
 Created by Fotios Basagiannis
 Top Rated IT Consultant & Network Protocol Enthusiast
@@ -129,3 +132,4 @@ This repository is the practical implementation of the theory paper written for 
 Star this repo if you found it useful — it helps other researchers discover it.
 Questions or want a Python rewrite? Open an issue.
 Made with pure bash, too much coffee, and zero corporate oversight.
+
