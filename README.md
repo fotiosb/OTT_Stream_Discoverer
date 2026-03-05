@@ -68,7 +68,7 @@ Even on your own network it can:
   ```bash
   apt install net-tools tcpdump dsniff avahi-utils curl mkchromecast adb
 🚀 Installation
-Bashgit clone https://github.com/fotiosb/ott-stream-discoverer.git
+Bashgit clone https://github.com/yourusername/ott-stream-discoverer.git
 cd ott-stream-discoverer
 
 # Make scripts executable
@@ -129,4 +129,3 @@ This repository is the practical implementation of the theory paper written for 
 Star this repo if you found it useful — it helps other researchers discover it.
 Questions or want a Python rewrite? Open an issue.
 Made with pure bash, too much coffee, and zero corporate oversight.
-
