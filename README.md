@@ -2,7 +2,7 @@
 
 **Discover exactly what your Fire TV, Roku, or Chromecast is streaming — using nothing but network protocols. No apps on the devices required.**
 
-Practical companion to the relevant research paper, by Fotios Basagiannis:   
+Practical companion to the research paper  
 **“A Current Overview of Network Service Discovery Protocols”** (included in this repo).
 
 ---
@@ -76,7 +76,6 @@ chmod +x *.sh
 
 # (Optional but recommended) Install missing packages
 sudo apt update && sudo apt install net-tools tcpdump dsniff avahi-utils curl mkchromecast adb -y
-That’s it. No other setup required.
 📖 Usage
 All commands require sudo.
 Bash# Standard DIAL discovery (Roku + Fire TV + any DIAL device)
@@ -103,16 +102,19 @@ All parsing and URL-encoding is done in pure bash — no external dependencies.
 
 📁 Project Structure
 textott-stream-discoverer/
-├── README.md                          ← You are here
+├── README.md
 ├── A_Current_Overview_of_Network_Service_Discovery_Protocols.pdf
-├── utils.sh                           ← Shared functions
+├── utils.sh
 ├── dial-detect.sh
 ├── mdns-detect.sh
 ├── firetv-detect5.sh
 └── (temporary files created at runtime)
+Notes:
+
+README.md — this file (you are here)
+utils.sh — shared functions used by all scripts
 
 ⚠️ Limitations & Known Issues
-
 Works only on Linux (bash + raw sockets).
 Modern devices using DoH, QUIC, or encrypted DNS hide some domains.
 MITM mode is fragile on networks with ARP inspection or 802.1X.
@@ -132,4 +134,3 @@ This repository is the practical implementation of the theory paper written for 
 Star this repo if you found it useful — it helps other researchers discover it.
 Questions or want a Python rewrite? Open an issue.
 Made with pure bash, too much coffee, and zero corporate oversight.
-
