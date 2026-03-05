@@ -2,7 +2,7 @@
 
 **Discover exactly what your Fire TV, Roku, or Chromecast is streaming — using nothing but network protocols. No apps on the devices required.**
 
-Practical companion to the research paper  
+Practical companion to the relevant research paper, by Fotios Basagiannis:   
 **“A Current Overview of Network Service Discovery Protocols”** (included in this repo).
 
 ---
@@ -68,7 +68,7 @@ Even on your own network it can:
   ```bash
   apt install net-tools tcpdump dsniff avahi-utils curl mkchromecast adb
 🚀 Installation
-Bashgit clone https://github.com/yourusername/ott-stream-discoverer.git
+Bashgit clone https://github.com/fotiosb/ott-stream-discoverer.git
 cd ott-stream-discoverer
 
 # Make scripts executable
@@ -101,10 +101,10 @@ Fire TV MITM (optional) — ARP-spoofs gateway, sniffs UDP/53 traffic for CNAME 
 
 All parsing and URL-encoding is done in pure bash — no external dependencies.
 📁 Project Structure
-Bashott-stream-discoverer/
-├── README.md
+textott-stream-discoverer/
+├── README.md                          ← You are here
 ├── A_Current_Overview_of_Network_Service_Discovery_Protocols.pdf
-├── utils.sh
+├── utils.sh                           ← Shared functions
 ├── dial-detect.sh
 ├── mdns-detect.sh
 ├── firetv-detect5.sh
