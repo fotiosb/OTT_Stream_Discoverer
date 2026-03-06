@@ -109,8 +109,8 @@ textott-stream-discoverer/
 ├── mdns-detect.sh
 ├── firetv-detect5.sh
 └── (temporary files created at runtime)
-Notes:
 
+Notes:
 README.md — this file (you are here)
 utils.sh — shared functions used by all scripts
 
@@ -134,3 +134,4 @@ This repository is the practical implementation of the theory paper written for 
 Star this repo if you found it useful — it helps other researchers discover it.
 Questions or want a Python rewrite? Open an issue.
 Made with pure bash, too much coffee, and zero corporate oversight.
+
