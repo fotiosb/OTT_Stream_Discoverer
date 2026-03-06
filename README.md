@@ -101,14 +101,14 @@ Fire TV MITM (optional) — ARP-spoofs gateway, sniffs UDP/53 traffic for CNAME 
 All parsing and URL-encoding is done in pure bash — no external dependencies.
 
 📁 Project Structure
-textott-stream-discoverer/
-├── README.md
-├── A_Current_Overview_of_Network_Service_Discovery_Protocols.pdf
-├── utils.sh
-├── dial-detect.sh
-├── mdns-detect.sh
-├── firetv-detect5.sh
-└── (temporary files created at runtime)
+textott-stream-discoverer/<br>
+├── README.md<br>
+├── A_Current_Overview_of_Network_Service_Discovery_Protocols.pdf<br>
+├── utils.sh<br>
+├── dial-detect.sh<br>
+├── mdns-detect.sh<br>
+├── firetv-detect5.sh<br>
+└── (temporary files created at runtime)<br>
 
 Notes:
 README.md — this file (you are here)
@@ -134,4 +134,5 @@ This repository is the practical implementation of the theory paper written for 
 Star this repo if you found it useful — it helps other researchers discover it.
 Questions or want a Python rewrite? Open an issue.
 Made with pure bash, too much coffee, and zero corporate oversight.
+
 
